@@ -2,19 +2,10 @@
     font-size: 16px;
 }
 
-.logo {
-    text-align: center;
-    margin-bottom: 20px;
+.top-nav {
+    display: flex;
 }
 
-.areas {
-    width: 400px;
-    margin: 0 auto;
-    margin-top: 20%;
-    display: flex;
-    flex-direction: column;
-}   
-
-.logo-image {
-    max-width: 300px;
+.google-apps-logo {
+    width: 10px;
 }
