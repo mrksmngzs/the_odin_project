@@ -2,10 +2,54 @@
     font-size: 16px;
 }
 
+/* Top navigation */
 .top-nav {
+    margin-top: 0.8rem;
+    margin-right: 0rem;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.8rem;
+    color: rgba(0,0,0,0.87);
 }
 
-.google-apps-logo {
-    width: 10px;
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+
+img {
+    width: 30px;
+}
+
+.gmail-link {
+    padding-right: 1rem;
+}
+
+.images-link {
+    padding-right: 1.5rem;
+}
+
+.google-apps {
+    padding-right: 1.3rem;
+}
+
+.profile-icon {
+    padding-right: 1rem;
+}
+
+.profile-icon-img {
+    width: 2.2rem;
+    border-radius: 50%;
+}
+
+.google-apps-icon {
+    width: 1.3rem;
 }
